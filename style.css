@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: nunito, sans-serif;
+    background-color: rgb(247, 254, 255);
+}
+
+html {
+    font-size: 62.8%;
+}
+
+.container {
+    position: relative;
+    background-color: rgb(247, 254, 255);
+    width: 100%;
+    height: 100%;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 4rem;
+    font-weight: 800;
+}
+
+.header p {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    margin: 0 40rem;
+    line-height: 3rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.btn-1 {
+    padding: 2.3rem 7rem;
+    background-color: rgb(37, 209, 149);
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-2 {
+    padding: 2.3rem 6.5rem;
+    background-color: rgb(232, 232, 232);
+    border: none;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 7rem 5rem;
+}
+
+.article {
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    padding: 2rem;
+    margin-right: 2rem;
+    box-shadow: 0 0 5px 1px rgb(173, 173, 173);
+    transition: all 0.2s;
+}
+
+.article-wrapper {
+    padding-bottom: 3rem;
+}
+
+.article:hover {
+    transform: scale(1.04);
+    /* border: 0.2rem solid rgb(37, 209, 149); */
+    box-shadow: 0 0 10px 1.2px rgb(173, 173, 173);
+}
+
+.article h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.article p {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: 500;
+}
+
+.article p span {
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+.btn-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.card-btn {
+    padding: 1.5rem 3rem;
+    border: 0.2rem solid rgb(109, 109, 109);
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: rgb(82, 82, 82);
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.card-btn:hover {
+    background-color: rgb(37, 209, 149);
+    color: #fff;
+    border: none;
+}
+
+.specifications {
+    text-align: left;
+}
+
+.specifications p {
+    font-size: 1.5rem;
+}
+
+.specifications p i {
+    margin-right: 1rem;
+    color: rgb(37, 209, 149);
+}
+
+.border {
+    border-bottom: 0.3rem solid rgb(64, 153, 225);
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.plan-details p {
+    display: flex;
+    text-align: left;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}
+
+.plan-details i {
+    margin-right: 1rem;
+    color: rgb(37, 209, 149);
+}
+
+.color1 {
+    background-color:rgb(37, 209, 149) ;
+}
+
+.color2 {
+    background-color: rgb(232, 232, 232);
+}
+
+.color3 {
+    color: black;
+}
+
+.color4 {
+    color: #fff;
+}
+
+
+/* .showcase-monthly {
+    display: none;
+}
+
+.showcase-yearly {
+    display: none;
+} */
+
+
+
+
+
+
+
+@media (max-width: 1360px) {
+    .header p {
+        margin: 0 30rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    .showcase {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .article {
+        width: 25%;
+        margin-bottom: 5rem;
+        padding: 0 2rem;
+    }
+
+    .article h4 {
+        padding-top: 5rem;
+    }
+
+    .container {
+        height: 100%;
+    }
+}
+
+@media (max-width: 1160px) {
+    .header p {
+        margin: 0 20rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .header p {
+        margin: 0 10rem;
+    }
+
+    .header h1 {
+        margin: 0 5rem;
+    }
+
+    .article {
+        width: 30%;
+    }
+}
+
+@media (max-width: 740px) {
+    .header p {
+        margin: 0 5rem;
+    }
+
+    .btn-1 {
+        padding: 2.3rem 5rem;
+    }
+
+    .btn-2 {
+        padding: 2.3rem 4.5rem;
+    }
+
+    .showcase {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 7rem 5rem;
+    }
+
+    .article {
+        width: 45%;
+        padding: 0 2rem;
+        margin-bottom: 5rem;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .article {
+        width: 70%;
+    }
+}
