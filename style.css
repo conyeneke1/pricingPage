@@ -223,6 +223,10 @@ html {
     .container {
         height: 100%;
     }
+
+    .showcase-yearly {
+        display: none;
+    } 
 }
 
 @media (max-width: 1160px) {
@@ -243,6 +247,10 @@ html {
     .article {
         width: 30%;
     }
+
+    .showcase-yearly {
+        display: none;
+    } 
 }
 
 @media (max-width: 740px) {
@@ -272,10 +280,18 @@ html {
         margin-bottom: 5rem;
         margin-right: 0;
     }
+
+    .showcase-yearly {
+        display: none;
+    } 
 }
 
 @media (max-width: 550px) {
     .article {
         width: 70%;
     }
+
+    .showcase-yearly {
+        display: none;
+    } 
 }
