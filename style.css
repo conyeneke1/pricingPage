@@ -70,15 +70,14 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 7rem 5rem;
+    padding: 7rem 5rem;
 }
 
 .article {
     background-color: rgb(255, 255, 255);
     width: 20%;
     padding: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 5rem;
+    margin: 0 1rem;
     box-shadow: 0 0 5px 1px rgb(173, 173, 173);
     transition: all 0.2s;
 }
@@ -196,7 +195,7 @@ html {
 /* Animation */
 #slider-back {
     position: absolute;
-    transform: translateX(-100%);
+    transform: translateX(100%);
     -webkit-transform: translateX(-100%);
 }
 
@@ -220,11 +219,19 @@ html {
     100% { transform: translateX(0%); }
 }
 
+@-webkit-keyframes slide-in {
+    100% { -webkit-transform: translateX(0%); }
+}
+    
 @keyframes slide-out {
     0% { transform: translateX(0%); }
     100% { transform: translateX(-100%); }
 }
 
+@-webkit-keyframes slide-out {
+    0% { -webkit-transform: translateX(-0%); }
+    100% { -webkit-transform: translateX(-100%); }
+}
 
 
 
@@ -241,6 +248,7 @@ html {
     .showcase {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .article {
