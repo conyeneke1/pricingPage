@@ -78,6 +78,7 @@ html {
     width: 20%;
     padding: 2rem;
     margin-right: 2rem;
+    margin-bottom: 5rem;
     box-shadow: 0 0 5px 1px rgb(173, 173, 173);
     transition: all 0.2s;
 }
@@ -191,6 +192,38 @@ html {
 .showcase-yearly {
     display: none;
 } 
+
+/* Animation */
+#slider-back {
+    position: absolute;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+#slider-front {
+    position: absolute;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+}
+
+.slide-in {
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+}
+
+.slide-out {
+    animation: slide-out 0.5s forwards;
+    -webkit-animation: slide-out 0.5s forwards;
+}
+    
+@keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+
+@keyframes slide-out {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
 
 
 
