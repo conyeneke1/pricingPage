@@ -201,8 +201,8 @@ html {
 
 #slider-front {
     position: absolute;
-    transform: translateX(100%);
-    -webkit-transform: translateX(100%);
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
 }
 
 .slide-in {
@@ -333,4 +333,15 @@ html {
     .showcase-yearly {
         display: none;
     } 
+}
+
+@media (max-width: 450px) {
+    .article {
+        width: 90%;
+        margin: 0;
+    }
+
+    .showcase {
+        margin: 1rem;
+    }
 }
