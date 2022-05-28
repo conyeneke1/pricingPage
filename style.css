@@ -201,7 +201,7 @@ html {
 
 #slider-front {
     position: absolute;
-    transform: translateX(-100%);
+    transform: translateX(100%);
     -webkit-transform: translateX(-100%);
 }
 
@@ -315,7 +315,7 @@ html {
     }
 
     .article {
-        width: 45%;
+        width: 50%;
         padding: 0 2rem;
         margin-bottom: 5rem;
     }
@@ -326,8 +326,12 @@ html {
 }
 
 @media (max-width: 550px) {
+    .showcase {
+        padding: 7rem 0rem;
+    }
+
     .article {
-        width: 70%;
+        width: 60%;
     }
 
     .showcase-yearly {
@@ -336,12 +340,11 @@ html {
 }
 
 @media (max-width: 450px) {
-    .article {
-        width: 90%;
-        margin: 0;
+    .showcase {
+        padding: 7rem 0rem;
     }
 
-    .showcase {
-        margin: 1rem;
+    .article {
+        width: 70%;
     }
 }
