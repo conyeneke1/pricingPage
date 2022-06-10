@@ -480,6 +480,14 @@ html {
     .credit-modal-box {
         width: 33rem;
     }
+
+    .subscribers-modal-box {
+        width: 33rem;
+    }
+
+    .campaign-modal-box {
+        width: 33rem;
+    }
 }
 
 @media (max-width: 450px) {
