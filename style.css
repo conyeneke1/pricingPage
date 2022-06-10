@@ -249,6 +249,11 @@ html {
     right: 0;
     bottom: 0;
 }
+
+.container-display {
+    position: fixed;
+}
+
 .credit-modal-box {
     display: none;
     position: absolute;
@@ -472,6 +477,12 @@ html {
     .article {
         width: 60%;
     }
+
+    .article:hover {
+        transform: scale(1);
+        box-shadow: 0 0 10px 1.2px rgb(173, 173, 173);
+    }
+    
 
     .showcase-yearly {
         display: none;

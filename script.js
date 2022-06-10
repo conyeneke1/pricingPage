@@ -1,3 +1,4 @@
+let container = document.querySelector('.container');
 let modalWrapper = document.querySelector('.modal-wrapper');
 let headerBtn1 = document.querySelector('.btn-1');
 let headerBtn2 = document.querySelector('.btn-2');
@@ -28,48 +29,59 @@ let campaignModalBoxEnterprise = document.querySelector('.campaign-modal-box-ent
 starterCreditPlus.addEventListener('click', () => {
     creditModalBoxStarter.style.display = 'block';
     modalWrapper.classList.add('modal-display')
+    container.classList.add('container-display');
 })
 
 starterSubscriberPlus.addEventListener('click', () => {
     subscriberModalBoxStarter.style.display = 'block';
-    modalWrapper.classList.add('modal-display')
+    modalWrapper.classList.add('modal-display');
+    container.classList.add('container-display');
 })
 
 starterCampaignPlus.addEventListener('click', () => {
     campaignModalBoxStarter.style.display = 'block';
-    modalWrapper.classList.add('modal-display')
+    modalWrapper.classList.add('modal-display');
+    container.classList.add('container-display');
 })
 
 // Professional plus plan
 professionalCreditPlus.addEventListener('click', () => {
     creditModalBoxProfessional.style.display = 'block';
-    modalWrapper.classList.add('modal-display')
+    modalWrapper.classList.add('modal-display');
+    container.classList.add('container-display');
+    
 })
 
 professionalSubscriberPlus.addEventListener('click', () => {
     subscriberModalBoxProfessional.style.display = 'block';
-    modalWrapper.classList.add('modal-display')
+    modalWrapper.classList.add('modal-display');
+    container.classList.add('container-display');
 })
 
 professionalCampaignPlus.addEventListener('click', () => {
     campaignModalBoxProfessional.style.display = 'block';
-    modalWrapper.classList.add('modal-display')
+    modalWrapper.classList.add('modal-display');
+    container.classList.add('container-display');
 })
 
 // Enterprise plus plan
 enterpriseCreditPlus.addEventListener('click', () => {
     creditModalBoxEnterprise.style.display = 'block';
-    modalWrapper.classList.add('modal-display')
+    modalWrapper.classList.add('modal-display');
+    container.classList.add('container-display');
 })
 
 enterpriseSubscriberPlus.addEventListener('click', () => {
     subscriberModalBoxEnterprise.style.display = 'block';
-    modalWrapper.classList.add('modal-display')
+    modalWrapper.classList.add('modal-display');
+    container.classList.add('container-display');
+    
 })
 
 enterpriseCampaignPlus.addEventListener('click', () => {
     campaignModalBoxEnterprise.style.display = 'block';
-    modalWrapper.classList.add('modal-display')
+    modalWrapper.classList.add('modal-display');
+    container.classList.add('container-display');
 })
 
 // Exit Modal
@@ -77,6 +89,7 @@ plusCancel.addEventListener('click', closeModal)
 
 function closeModal() {
     modalWrapper.classList.remove('modal-display');
+    container.classList.remove('container-display');
 
     creditModalBoxStarter.style.display = 'none';
     subscriberModalBoxStarter.style.display = 'none';
