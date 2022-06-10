@@ -40,6 +40,7 @@
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Free for 14 days</p>
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Sending credit of 1k</p>
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Max subscribers of 200</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Max campaign of 5</p>
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Max list of 5</p>
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Max subscribers per list of 50</p>
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Max size of file space of 50MB</p>
@@ -63,8 +64,9 @@
                             </div>
                             <div class="plan-details">
                                 <div class="border"></div>
-                                <p><i class="fa fa-check" aria-hidden="true"></i> Sending credit of 10k</p>
-                                <p><i class="fa fa-check" aria-hidden="true"></i> Max subscribers of 5k</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Sending credit of 10k <i id="plus-icon" class="starter-credit fa fa-plus-square" aria-hidden="true"></i></p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Max subscribers of 5k <i id="plus-icon" class="starter-subscriber fa fa-plus-square" aria-hidden="true"></i></p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Max campaign of 100k <i id="plus-icon" class="starter-campaign fa fa-plus-square" aria-hidden="true"></i></p>
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Max list of 15</p>
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Max subscribers per list of 2k</p>
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Max size of file space of 500MB</p>
@@ -87,8 +89,9 @@
                             </div>
                             <div class="plan-details">
                                 <div class="border"></div>
-                                <p><i class="fa fa-check" aria-hidden="true"></i> Sending credit of 100k</p>
-                                <p><i class="fa fa-check" aria-hidden="true"></i> Max subscribers of 50k</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Sending credit of 100k <i id="plus-icon" class="professional-credit fa fa-plus-square" aria-hidden="true"></i></p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Max subscribers of 50k <i id="plus-icon" class="professional-subscriber fa fa-plus-square" aria-hidden="true"></i></p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Max campaign of 600 <i id="plus-icon" class="professional-campaign fa fa-plus-square" aria-hidden="true"></i></p>
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Max list of 30</p>
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Max subscribers per list of 10k</p>
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Max size of file space of 2GB</p>
@@ -114,12 +117,13 @@
                             </div>
                             <div class="plan-details">
                                 <div class="border"></div>
-                                <p><i class="fa fa-check" aria-hidden="true"></i> Sending credit of 10k</p>
-                                <p><i class="fa fa-check" aria-hidden="true"></i> Max subscribers of 5k</p>
-                                <p><i class="fa fa-check" aria-hidden="true"></i> Max list of 15</p>
-                                <p><i class="fa fa-check" aria-hidden="true"></i> Max subscribers per list of 2k</p>
-                                <p><i class="fa fa-check" aria-hidden="true"></i> Max size of file space of 500MB</p>
-                                <p><i class="fa fa-check" aria-hidden="true"></i> Upload file size of 150MB</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Sending credit of 1m <i id="plus-icon" class="enterprise-credit fa fa-plus-square" aria-hidden="true"></i></p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Max subscribers of 500k <i id="plus-icon" class="enterprise-subscriber fa fa-plus-square" aria-hidden="true"></i></p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Max campaign of 5k <i id="plus-icon" class="enterprise-campaign fa fa-plus-square" aria-hidden="true"></i></p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Max list of 50</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Max subscribers per list is unlimited</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Max size of file space of 10GB</p>
+                                <p><i class="fa fa-check" aria-hidden="true"></i> Upload file size of 1GB</p>
                                 <p><i class="fa fa-check" aria-hidden="true"></i> Add personal sending server</p><br>
                                 <p>Including the Additionals in the Professional Plan</p>
                             </div>
@@ -285,7 +289,130 @@
             </section>
         </div>
     </div>
-        
+
+    <!-- Modal Box -->
+    <!-- Starter Plan -->
+    <section class="modal-wrapper">
+        <div class="credit-modal-box credit-modal-box-starter">
+            <h1>Sending credit plus</h1>
+            <div class="credit-details">
+                <p><b>Plan: </b>Starter</p>
+                <p><b>Sending Credit: </b>50k</p>
+                <p><b>Price: </b>$14.9</p>
+            </div>
+            <div class="credit-btn">
+                <button class="plus-cancel" onclick="closeModal()">cancel</button>
+                <button>update</button>
+            </div>
+        </div>
+    
+        <div class="subscribers-modal-box subscriber-modal-box-starter">
+            <h1>Max subscribers plus</h1>
+            <div class="subscribers-details">
+                <p><b>Plan: </b>Starter</p>
+                <p><b>Max Subscribers: </b>25k</p>
+                <p><b>Price: </b>$12.7</p>
+            </div>
+            <div class="subscribers-btn">
+                <button class="plus-cancel" onclick="closeModal()">cancel</button>
+                <button>update</button>
+            </div>
+        </div>
+    
+        <div class="campaign-modal-box campaign-modal-box-starter">
+            <h1>Max campaign plus</h1>
+            <div class="campaign-details">
+                <p><b>Plan: </b>Starter</p>
+                <p><b>Max Campaign: </b>350</p>
+                <p><b>Price: </b>$14.3</p>
+            </div>
+            <div class="campaign-btn">
+                <button class="plus-cancel" onclick="closeModal()">cancel</button>
+                <button>update</button>
+            </div>
+        </div>
+    
+        <!-- Professional Plan -->
+        <div class="credit-modal-box credit-modal-box-professional">
+            <h1>Sending credit plus</h1>
+            <div class="credit-details">
+                <p><b>Plan: </b>Professional</p>
+                <p><b>Sending Credit: </b>500k</p>
+                <p><b>Price: </b>$34.4</p>
+            </div>
+            <div class="credit-btn">
+                <button class="plus-cancel" onclick="closeModal()">cancel</button>
+                <button>update</button>
+            </div>
+        </div>
+    
+        <div class="subscribers-modal-box subscriber-modal-box-professional">
+            <h1>Max subscribers plus</h1>
+            <div class="subscribers-details">
+                <p><b>Plan: </b>Professional</p>
+                <p><b>Max Subscribers: </b>250k</p>
+                <p><b>Price: </b>$32.3</p>
+            </div>
+            <div class="subscribers-btn">
+                <button class="plus-cancel" onclick="closeModal()">cancel</button>
+                <button>update</button>
+            </div>
+        </div>
+    
+        <div class="campaign-modal-box campaign-modal-box-professional">
+            <h1>Max campaign plus</h1>
+            <div class="campaign-details">
+                <p><b>Plan: </b>Professional</p>
+                <p><b>Max Campaign: </b>3k</p>
+                <p><b>Price: </b>$34.0</p>
+            </div>
+            <div class="campaign-btn">
+                <button class="plus-cancel" onclick="closeModal()">cancel</button>
+                <button>update</button>
+            </div>
+        </div>
+    
+        <!-- Enterprise Plan -->
+        <div class="credit-modal-box credit-modal-box-enterprise">
+            <h1>Sending credit plus</h1>
+            <div class="credit-details">
+                <p><b>Plan: </b>Enterprise</p>
+                <p><b>Sending Credit: </b>5m</p>
+                <p><b>Price: </b>$53.6</p>
+            </div>
+            <div class="credit-btn">
+                <button class="plus-cancel" onclick="closeModal()">cancel</button>
+                <button>update</button>
+            </div>
+        </div>
+    
+        <div class="subscribers-modal-box subscriber-modal-box-enterprise">
+            <h1>Max subscribers plus</h1>
+            <div class="subscribers-details">
+                <p><b>Plan: </b>Enterprise</p>
+                <p><b>Max Subscribers: </b>2m</p>
+                <p><b>Price: </b>$51.4$</p>
+            </div>
+            <div class="subscribers-btn">
+                <button class="plus-cancel" onclick="closeModal()">cancel</button>
+                <button>update</button>
+            </div>
+        </div>
+    
+        <div class="campaign-modal-box campaign-modal-box-enterprise">
+            <h1>Max campaign plus</h1>
+            <div class="campaign-details">
+                <p><b>Plan: </b>Enterprise</p>
+                <p><b>Max Campaign: </b>10k</p>
+                <p><b>Price: </b>$53.0</p>
+            </div>
+            <div class="campaign-btn">
+                <button class="plus-cancel" onclick="closeModal()">cancel</button>
+                <button>update</button>
+            </div>
+        </div>
+    </section>
+    
 
 
 

@@ -167,8 +167,14 @@ html {
     color: rgb(37, 209, 149);
 }
 
+#plus-icon {
+    margin-left: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .color1 {
-    background-color:rgb(37, 209, 149) ;
+    background-color:rgb(37, 209, 149);
 }
 
 .color2 {
@@ -232,6 +238,139 @@ html {
     0% { -webkit-transform: translateX(-0%); }
     100% { -webkit-transform: translateX(-100%); }
 }
+
+/* Modal Box */
+/* Sending credit modal box */
+.modal-display {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.credit-modal-box {
+    display: none;
+    position: absolute;
+    width: 40rem;
+    height: fit-content;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 5px rgb(124, 124, 124);
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+}
+
+.credit-modal-box h1 {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.credit-details {
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+}
+
+.credit-details p {
+    padding-bottom: 0.7rem;
+}
+
+.credit-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.credit-btn button {
+    margin-right: 10px;
+    padding: 5px 15px;
+}
+
+/* Max subscribers modal box */
+.subscribers-modal-box {
+    display: none;
+    position: absolute;
+    width: 40rem;
+    height: fit-content;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 5px rgb(124, 124, 124);
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+}
+
+.subscribers-modal-box h1 {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.subscribers-details {
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+}
+
+.subscribers-details p {
+    padding-bottom: 0.7rem;
+}
+
+.subscribers-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subscribers-btn button {
+    margin-right: 10px;
+    padding: 5px 15px;
+}
+
+/* Max campaign modal box */
+.campaign-modal-box {
+    display: none;
+    position: absolute;
+    width: 40rem;
+    height: fit-content;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 5px rgb(124, 124, 124);
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+}
+
+.campaign-modal-box h1 {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.campaign-details {
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+}
+
+.campaign-details p {
+    padding-bottom: 0.7rem;
+}
+
+.campaign-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.campaign-btn button {
+    margin-right: 10px;
+    padding: 5px 15px;
+}
+
+
+
+
 
 
 
@@ -337,6 +476,10 @@ html {
     .showcase-yearly {
         display: none;
     } 
+
+    .credit-modal-box {
+        width: 33rem;
+    }
 }
 
 @media (max-width: 450px) {
