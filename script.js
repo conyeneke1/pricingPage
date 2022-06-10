@@ -1,4 +1,4 @@
-let container = document.querySelector('.container');
+let container = document.querySelector('.container-wrapper');
 let modalWrapper = document.querySelector('.modal-wrapper');
 let headerBtn1 = document.querySelector('.btn-1');
 let headerBtn2 = document.querySelector('.btn-2');

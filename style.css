@@ -251,7 +251,7 @@ html {
 }
 
 .container-display {
-    position: fixed;
+    overflow: hidden;
 }
 
 .credit-modal-box {
@@ -289,8 +289,18 @@ html {
 }
 
 .credit-btn button {
+    position: relative;
     margin-right: 10px;
-    padding: 5px 15px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    border: 0.2px solid rgb(37, 209, 149);
+    font-size: 1.4rem;
+    transition: background-color 0.3s;
+}
+
+.credit-btn button:hover {
+    background-color: rgb(37, 209, 149);
+    border: none;
 }
 
 /* Max subscribers modal box */
@@ -331,6 +341,15 @@ html {
 .subscribers-btn button {
     margin-right: 10px;
     padding: 5px 15px;
+    border-radius: 6px;
+    border: 0.2px solid rgb(37, 209, 149);
+    font-size: 1.4rem;
+    transition: background-color 0.3s;
+}
+
+.subscribers-btn button:hover {
+    background-color: rgb(37, 209, 149);
+    border: none;
 }
 
 /* Max campaign modal box */
@@ -371,6 +390,15 @@ html {
 .campaign-btn button {
     margin-right: 10px;
     padding: 5px 15px;
+    border-radius: 6px;
+    border: 0.2px solid rgb(37, 209, 149);
+    font-size: 1.4rem;
+    transition: background-color 0.3s;
+}
+
+.campaign-btn button:hover {
+    background-color: rgb(37, 209, 149);
+    border: none;
 }
 
 
