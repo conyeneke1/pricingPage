@@ -266,6 +266,7 @@ html {
     top: 40%;
     transform: translate(-50%, -50%);
     padding: 2rem;
+    border-radius: 10px;
 }
 
 .credit-modal-box h1 {
@@ -316,6 +317,7 @@ html {
     top: 40%;
     transform: translate(-50%, -50%);
     padding: 2rem;
+    border-radius: 10px;
 }
 
 .subscribers-modal-box h1 {
@@ -365,6 +367,7 @@ html {
     top: 40%;
     transform: translate(-50%, -50%);
     padding: 2rem;
+    border-radius: 10px;
 }
 
 .campaign-modal-box h1 {
